@@ -1,7 +1,13 @@
-import "./App.css";
+import { Suspense } from "react";
+import Loading from "./components/loading";
+import Home from "./HomePage";
 
 function App() {
-  return <></>;
+  return (
+    <Suspense fallback={<Loading />}>
+      <Home />
+    </Suspense>
+  );
 }
 
 export default App;
