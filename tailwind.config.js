@@ -59,6 +59,7 @@ export default {
         "preview-color": "#FFF6FF",
         "sidebar-color": "#1E1E1E",
         "btn-color":"#FFD9E4",
+        "Section-Bg": "#FFF1F5"
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
