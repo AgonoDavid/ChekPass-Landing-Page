@@ -3,6 +3,9 @@ import { Button } from "../components/Button";
 import HeaderImage from "../assets/frame1.png";
 import Frame2 from "../assets/Frame2.png";
 
+//SECTIONS
+import About from "../components/About";
+
 const Home = () => {
   return (
     <div className="bg-gradient-to-b from-header-color to-white h-[1380px] w-full ">
@@ -50,8 +53,9 @@ const Home = () => {
           </div>
         </div>
 
-        <img src={Frame2} className="  h-[500px] w-[60%] object-cover" />
+        <img src={Frame2} className="  h-[500px] w-[70%] object-cover" />
       </div>
+      <About />
     </div>
   );
 };
