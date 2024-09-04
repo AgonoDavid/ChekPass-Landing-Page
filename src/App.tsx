@@ -1,11 +1,7 @@
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <div>I love jesus</div>
-    </>
-  );
+  return <></>;
 }
 
 export default App;
