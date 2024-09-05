@@ -22,7 +22,7 @@ const TicketExperience = () => {
         </div>
       </div>
 
-      <img src={Frame2} className="  h-[500px] w-[70%] object-cover" />
+      <img src={Frame2} className="  h-[500px] w-[55%] object-contain " />
     </div>
   );
 };
