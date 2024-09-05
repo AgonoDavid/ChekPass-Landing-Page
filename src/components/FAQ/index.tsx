@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BlackArrow from "../../assets/blackArrow.png";
+// import BlackArrow from "../../assets/blackArrow.png";
 import { Button } from "../Button";
 
 const FAQ = () => {
@@ -42,11 +42,11 @@ const FAQ = () => {
   ];
 
   return (
-    <div className=" mt-[160px]">
+    <div className=" mt-[160px] mx-[75px]">
       <p className="font-figtree font-[900] flex flex-row  justify-center text-f64">
         FAQs
       </p>
-      <div className="flex justify-between mx-[75px] mt-[84px] gap-[98px] ">
+      <div className="flex justify-between  mt-[84px] gap-[98px] ">
         <div className="w-[638px]]">
           {questions.map((question, index) => (
             <div
@@ -90,6 +90,14 @@ const FAQ = () => {
             />
           </button> */}
         </div>
+      </div>
+      <div className=" pl-[24px]">
+        <p className=" font-figtree font-[900] text-f32 tracking-tight leading-[32px]">
+          Got more questions? Send us a mail via:{" "}
+        </p>
+        <p className=" font-figtree font-[900] text-f32 text-c-red tracking-tight leading-[32px]">
+          info@chekpass.com
+        </p>
       </div>
     </div>
   );
