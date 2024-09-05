@@ -13,7 +13,7 @@ const ComingSoon = () => {
             <span></span>
           </p>
 
-          <p className=" text-f96 font-figtree font-[900]">coming soon.</p>
+          <p className=" text-f96 font-figtree font-[900]">Coming soon.</p>
         </div>
         <div className=" w-[100%]">
           <img src={PhoneLogo} className=" " />

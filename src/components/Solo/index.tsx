@@ -3,7 +3,7 @@ import { Button } from "../Button";
 const Vision = () => {
   return (
     <div className=" mt-[196px]">
-      <div className="bg-Section-Bg flex flex-row mx-[72px]  rounded-[24px] py-[48px] px-[24px] ">
+      <div className="bg-Section-Bg flex flex-row mx-[72px] rounded-[24px] py-[48px] px-[24px] ">
         <div className="    w-[90%]">
           <img src={Image4} className=" w-[100%] relative object-contain" />
         </div>
