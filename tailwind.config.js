@@ -43,6 +43,8 @@ export default {
         "c-accent/650": "#B40630",
         "c-accent/50": "#F9CED8",
         "c-accent/400": "#E1083C",
+        "header-color": "#FFF1F4",
+        "fade":"#9B9B9B"
       },
 
       backgroundColor: {
@@ -56,7 +58,10 @@ export default {
         "background-tertiary-hover": "#F5F5F5",
         "background-tertiary-focused": "",
         "preview-color": "#FFF6FF",
-        "sidebar-color": "#1E1E1E"
+        "sidebar-color": "#1E1E1E",
+        "btn-color":"#FFD9E4",
+        "Section-Bg": "#FFF1F5",
+        "Section-Bg-Two":"#FFF0F0"
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
@@ -72,7 +77,7 @@ export default {
         f20: ["20px", "100%"],
         f18: ["18px", "180%"],
         f18_100: ["18px", "100%"],
-        f16: ["14px", "100%"],
+        f16: ["16px", "100%"],
         f14: ["14px", "150%"],
         f12: ["12px", "100%"],
         f11: ["11px", "100%"],
