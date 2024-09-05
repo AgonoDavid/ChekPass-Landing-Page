@@ -23,6 +23,12 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
       buttonClasses += " bg-btn-color  font-[800]";
       break;
 
+    case "secondary":
+      textColorClass = "text-black";
+      buttonClasses +=
+        " border-[1px] border-solid border-black font-[800] focus:bg-background-secondary-focused hover:bg-background-secondary-hover";
+      break;
+
     default:
       textColorClass = "text-white";
       buttonClasses += " bg-c-red";

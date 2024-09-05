@@ -43,7 +43,8 @@ export default {
         "c-accent/650": "#B40630",
         "c-accent/50": "#F9CED8",
         "c-accent/400": "#E1083C",
-        "header-color": "#FFF1F4"
+        "header-color": "#FFF1F4",
+        "fade":"#9B9B9B"
       },
 
       backgroundColor: {
@@ -59,7 +60,8 @@ export default {
         "preview-color": "#FFF6FF",
         "sidebar-color": "#1E1E1E",
         "btn-color":"#FFD9E4",
-        "Section-Bg": "#FFF1F5"
+        "Section-Bg": "#FFF1F5",
+        "Section-Bg-Two":"#FFF0F0"
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],

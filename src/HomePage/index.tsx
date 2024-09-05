@@ -5,6 +5,7 @@ import TicketExperience from "../components/TicketXp";
 //SECTIONS
 import About from "../components/About";
 import Vision from "../components/Solo";
+import FAQ from "../components/FAQ";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       <TicketExperience />
       <About />
       <Vision />
+      <FAQ />
     </div>
   );
 };
