@@ -6,10 +6,11 @@ import TicketExperience from "../components/TicketXp";
 import About from "../components/About";
 import Vision from "../components/Solo";
 import FAQ from "../components/FAQ";
+import ComingSoon from "../components/ComingSoon";
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-header-color to-white h-[1380px] w-full ">
+    <div className=" bg-gradient-to-b from-header-color to-white h-[1380px] w-full ">
       <div className=" pt-[40px]">
         <Menu />
       </div>
@@ -36,6 +37,7 @@ const Home = () => {
       <About />
       <Vision />
       <FAQ />
+      <ComingSoon />
     </div>
   );
 };
