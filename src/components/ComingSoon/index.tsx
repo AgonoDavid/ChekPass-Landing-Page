@@ -8,7 +8,7 @@ const ComingSoon = () => {
         <div className=" w-[100%] flex flex-col">
           <p className=" text-f96 font-figtree font-[900]">ChekPass</p>
 
-          <p className=" text-f96 font-figtree text-c-red font-[900]">
+          <p className=" text-f16 font-figtree text-c-red font-[900]">
             mobile app
             <span></span>
           </p>
