@@ -91,14 +91,6 @@ const FAQ = () => {
           </button> */}
         </div>
       </div>
-      <div className=" pl-[24px]">
-        <p className=" font-figtree font-[900] text-f32 tracking-tight leading-[32px]">
-          Got more questions? Send us a mail via:{" "}
-        </p>
-        <p className=" font-figtree font-[900] text-f32 text-c-red tracking-tight leading-[32px]">
-          info@chekpass.com
-        </p>
-      </div>
     </div>
   );
 };
