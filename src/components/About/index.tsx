@@ -1,8 +1,8 @@
 import Arrow from "../../assets/Circle Arrow.png";
-import CorporateEventImg from "../../assets/corporateEvent.png";
-import CareerrEventImg from "../../assets/CareerEvent.png";
-import ArtEventImg from "../../assets/ArtsEvent.png";
-import ReligiousEventImg from "../../assets/ReligiousEvent.png";
+import CorporateEventImg from "../../assets/newCoporate.jpg";
+import CareerrEventImg from "../../assets/newCareer.png";
+import ArtEventImg from "../../assets/newArt.png";
+import ReligiousEventImg from "../../assets/newReligion.png";
 const About = () => {
   return (
     <div className=" mt-[264px] mx-[72px]">
