@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </div>
       <div className="mt-[111px] mb-[163px]">
-        <img src={HeaderImage} />
+        <img src={HeaderImage} loading="lazy" />
       </div>
       <TicketExperience />
       <About />
