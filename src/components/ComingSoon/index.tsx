@@ -30,10 +30,11 @@ const ComingSoon = () => {
               <p className=" text-f96 font-figtree font-[900]">coming soon.</p>
             </div>
           </div>
-          <div className="w-[48%] justify-end flex flex-row h-[757px]">
+          <div className="w-[45%] justify-end flex flex-row h-[757px]">
             <img
               src={PhoneLogo}
               className="w-[100%] scale-[1.2] object-contain"
+              loading="lazy"
             />
           </div>
         </div>

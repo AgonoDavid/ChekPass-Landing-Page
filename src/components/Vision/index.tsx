@@ -8,6 +8,7 @@ const Vision = () => {
           <img
             src={Image4}
             className="w-[100%] scale-[1.3] relative right-10 bottom-1 object-contain"
+            loading="lazy"
           />
         </div>
         <div className="flex flex-col justify-center w-[100%]">
