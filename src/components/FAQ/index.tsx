@@ -74,21 +74,6 @@ const FAQ = () => {
           <div className=" w-[139px] float-right">
             <Button label="Next" variant="secondary" />
           </div>
-          {/* <button className="flex flex-row items-center gap-[12px] border-[2px] mt-[24px] px-4 py-[13.5px] w-[139px] h-[51px] border-black hover:bg-gray-200">
-            <a
-              href={answers[activeQuestion].link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black font-lato text-f18"
-            >
-              Next
-            </a>
-            <img
-              src={BlackArrow}
-              className="w-[10px] object-contain"
-              alt="Arrow"
-            />
-          </button> */}
         </div>
       </div>
     </div>
