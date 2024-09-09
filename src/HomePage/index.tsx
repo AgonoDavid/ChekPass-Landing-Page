@@ -1,6 +1,7 @@
 import Menu from "../components/menu";
 import { Button } from "../components/Button";
 import HeaderImage from "../assets/newheader.png";
+import { useRef } from "react";
 //SECTIONS
 import TicketExperience from "../components/TicketXp";
 import About from "../components/About";
@@ -10,10 +11,34 @@ import ComingSoon from "../components/ComingSoon";
 import Footer from "../components/Footer";
 
 const Home = () => {
+  const homeRef = useRef<HTMLDivElement | null>(null);
+  const faqRef = useRef<HTMLDivElement | null>(null);
+  const contactRef = useRef<HTMLDivElement | null>(null);
+
+  // Scroll handler function
+  const handleScrollTo = (section: string) => {
+    switch (section) {
+      case "Home":
+        homeRef.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "FAQs":
+        faqRef.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "Contact":
+        contactRef.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      default:
+        break;
+    }
+  };
+
   return (
-    <div className=" bg-gradient-to-b from-header-color to-white h-[1380px] w-full ">
-      <div className=" pt-[40px]">
-        <Menu />
+    <div
+      className=" bg-gradient-to-b from-header-color to-white h-[1380px] w-full "
+      ref={homeRef}
+    >
+      <div className=" pt-[120px]">
+        <Menu handleScrollTo={handleScrollTo} />
       </div>
       <div className="mt-[120px] flex flex-col items-center justify-center text-center">
         <div>
@@ -31,15 +56,33 @@ const Home = () => {
           <Button label="Coming soon..." variant="primary" />
         </div>
       </div>
-      <div className="mt-[111px] mb-[163px]">
+      <div className="mt-[111px] mb-[163px] w-[100%]">
         <img src={HeaderImage} loading="lazy" />
       </div>
+
+      {/* TicketExperience Section */}
       <TicketExperience />
+
+      {/* About Section */}
       <About />
+
+      {/* Vision Section */}
       <Vision />
-      <FAQ />
-      <ComingSoon />
-      <Footer />
+
+      {/* FAQs Section */}
+      <div ref={faqRef}>
+        <FAQ />
+      </div>
+
+      {/* Coming soon Section */}
+      <div>
+        <ComingSoon />
+      </div>
+
+      {/* Footer */}
+      <div ref={contactRef}>
+        <Footer />
+      </div>
     </div>
   );
 };

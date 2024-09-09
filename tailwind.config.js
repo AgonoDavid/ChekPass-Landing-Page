@@ -61,7 +61,8 @@ export default {
         "sidebar-color": "#1E1E1E",
         "btn-color":"#FFD9E4",
         "Section-Bg": "#FFF1F5",
-        "Section-Bg-Two":"#FFF0F0"
+        "Section-Bg-Two":"#FFF0F0",
+        "grey-bg":"#FFF5F7"
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
