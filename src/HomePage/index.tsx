@@ -7,6 +7,7 @@ import About from "../components/About";
 import Vision from "../components/Vision";
 import FAQ from "../components/FAQ";
 import ComingSoon from "../components/ComingSoon";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
       <Vision />
       <FAQ />
       <ComingSoon />
+      <Footer />
     </div>
   );
 };

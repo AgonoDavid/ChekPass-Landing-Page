@@ -14,7 +14,7 @@ const ComingSoon = () => {
       </div>
       <div className=" flex flex-row items-center justify-center mt-[475px]">
         <div className=" flex flex-row justify-between px-[72px]">
-          <div className=" w-[100%] flex flex-col justify-center relative bottom-32 ">
+          <div className=" w-[60%] flex flex-col justify-center relative bottom-32 ">
             <div>
               <p className=" text-f96 font-figtree font-[900]">ChekPass</p>
             </div>
@@ -30,7 +30,7 @@ const ComingSoon = () => {
               <p className=" text-f96 font-figtree font-[900]">coming soon.</p>
             </div>
           </div>
-          <div className="w-[90%] justify-end flex flex-row h-[757px]">
+          <div className="w-[50%] justify-end flex flex-row h-[757px]">
             <img
               src={PhoneLogo}
               className="w-[100%] scale-[1.2] object-contain"
