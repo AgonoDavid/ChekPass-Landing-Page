@@ -4,7 +4,7 @@ import HeaderImage from "../assets/frame1.png";
 import TicketExperience from "../components/TicketXp";
 //SECTIONS
 import About from "../components/About";
-import Vision from "../components/Solo";
+import Vision from "../components/Vision";
 import FAQ from "../components/FAQ";
 import ComingSoon from "../components/ComingSoon";
 

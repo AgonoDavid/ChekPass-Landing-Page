@@ -12,7 +12,7 @@ const ComingSoon = () => {
           info@chekpass.com
         </p>
       </div>
-      <div className=" flex flex-row items-center justify-center mt-[293px]">
+      <div className=" flex flex-row items-center justify-center mt-[475px]">
         <div className=" flex flex-row justify-between px-[72px]">
           <div className=" w-[100%] flex flex-col justify-center relative bottom-32 ">
             <div>
@@ -33,7 +33,7 @@ const ComingSoon = () => {
           <div className="w-[90%] justify-end flex flex-row h-[757px]">
             <img
               src={PhoneLogo}
-              className="w-[100%] scale-[1.2] object-cover"
+              className="w-[100%] scale-[1.2] object-contain"
             />
           </div>
         </div>
