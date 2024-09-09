@@ -1,4 +1,4 @@
-import Image4 from "../../assets/Vis.png";
+import Image4 from "../../assets/newVision.png";
 import { Button } from "../Button";
 const Vision = () => {
   return (

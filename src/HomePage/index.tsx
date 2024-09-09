@@ -1,8 +1,8 @@
 import Menu from "../components/menu";
 import { Button } from "../components/Button";
-import HeaderImage from "../assets/frame1.png";
-import TicketExperience from "../components/TicketXp";
+import HeaderImage from "../assets/newheader.png";
 //SECTIONS
+import TicketExperience from "../components/TicketXp";
 import About from "../components/About";
 import Vision from "../components/Vision";
 import FAQ from "../components/FAQ";

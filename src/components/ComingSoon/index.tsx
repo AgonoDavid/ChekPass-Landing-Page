@@ -1,4 +1,4 @@
-import PhoneLogo from "../../assets/Phone logo.png";
+import PhoneLogo from "../../assets/newPhone.png";
 import Emoji from "../../assets/Emoji1.png";
 
 const ComingSoon = () => {
@@ -30,7 +30,7 @@ const ComingSoon = () => {
               <p className=" text-f96 font-figtree font-[900]">coming soon.</p>
             </div>
           </div>
-          <div className="w-[50%] justify-end flex flex-row h-[757px]">
+          <div className="w-[48%] justify-end flex flex-row h-[757px]">
             <img
               src={PhoneLogo}
               className="w-[100%] scale-[1.2] object-contain"

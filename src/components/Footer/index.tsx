@@ -49,7 +49,7 @@ const Contact = [
 const Footer = () => {
   return (
     <div className="bg-[#141414] text-white">
-      <div className="max-w-7xl flex flex-row justify-between mx-auto py-[83px] ">
+      <div className=" mx-[69px] flex flex-row justify-between py-[83px] ">
         <div className=" w-[50%]">
           <img src={Logo} className=" w-[40%]" />
         </div>
