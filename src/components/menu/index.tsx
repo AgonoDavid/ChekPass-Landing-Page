@@ -40,7 +40,7 @@ const Menu: React.FC<MenuProps> = ({ handleScrollTo }) => {
 
   const handleClick = (item: string) => {
     setActiveItem(item);
-    handleScrollTo(item); // Trigger scroll to the section when menu item is clicked
+    handleScrollTo(item);
   };
 
   return (

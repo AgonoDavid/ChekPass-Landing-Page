@@ -21,10 +21,10 @@ const TicketExperience = () => {
           </div>
         </div>
       </div>
-      <div className="w-[100%] justify-end flex flex-row h-[757px]">
+      <div className="w-[80%] justify-end flex flex-row h-[757px]">
         <img
           src={Frame2}
-          className="w-[100%] scale-[1] object-contain"
+          className="w-[100%] scale-[1.1] object-contain"
           loading="lazy"
         />
       </div>
