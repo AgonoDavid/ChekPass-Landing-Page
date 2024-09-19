@@ -97,18 +97,28 @@ const FAQ = () => {
             </p>
             <div className="flex justify-between">
               {/* Previous Button */}
-              {activeQuestion > 0 && (
-                <Button
-                  label="Previous"
-                  variant="secondary"
-                  Click={handlePrevious}
-                />
-              )}
+              <div className=" ">
+                {activeQuestion > 0 && (
+                  <Button
+                    label="Previous"
+                    variant="secondary"
+                    Click={handlePrevious}
+                    direction="previous"
+                  />
+                )}
+              </div>
 
               {/* Next Button */}
-              {activeQuestion < questions.length - 1 && (
-                <Button label="Next" variant="secondary" Click={handleNext} />
-              )}
+              <div className=" w-[139px]">
+                {activeQuestion < questions.length - 1 && (
+                  <Button
+                    label="Next"
+                    variant="secondary"
+                    Click={handleNext}
+                    direction="next"
+                  />
+                )}
+              </div>
             </div>
           </div>
         </div>
