@@ -25,8 +25,7 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
 
     case "secondary":
       textColorClass = "text-black";
-      buttonClasses +=
-        " border-[1px] border-solid border-black font-[800] focus:bg-background-secondary-focused hover:bg-background-secondary-hover";
+      buttonClasses += " border-[1px] border-solid border-black font-[800] ";
       break;
 
     default:
