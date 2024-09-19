@@ -89,7 +89,7 @@ const FAQ = () => {
               {answers[activeQuestion].header}
             </h2>
             <p
-              className={`mt-[12px] mb-4 leading-[32px] transition-opacity duration-300 ${
+              className={`mt-[12px] mb-4 font-[400] font-lato leading-[32px] transition-opacity duration-300 ${
                 isTransitioning ? "opacity-0" : "opacity-100"
               }`}
             >
