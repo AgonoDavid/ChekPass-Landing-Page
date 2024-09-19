@@ -4,4 +4,5 @@ export type ButtonProps = {
   Click?: (() => void) | string;
   variant?: string;
   icon?: string;
+  direction?: string;
 };

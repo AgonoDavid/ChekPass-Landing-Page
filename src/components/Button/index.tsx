@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import { ButtonProps } from "../../Types";
 import { useNavigate } from "react-router-dom";
+import Arrow from "../../assets/arrow-circle-right.png";
 
-export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
+export const Button = ({
+  label,
+  to,
+  Click,
+  variant,
+  icon,
+  direction,
+}: ButtonProps) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -17,6 +25,7 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
 
   let textColorClass = "";
   let isDisabled = false;
+
   switch (variant) {
     case "primary":
       textColorClass = "text-c-red";
@@ -24,9 +33,8 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
       break;
 
     case "secondary":
-      textColorClass = "text-black";
-      buttonClasses +=
-        " border-[1px] border-solid border-black font-[800] focus:bg-background-secondary-focused hover:bg-background-secondary-hover";
+      textColorClass = "text-black text-f18";
+      buttonClasses += " border-[2px] border-solid border-black font-[800] ";
       break;
 
     default:
@@ -35,14 +43,31 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
       break;
   }
 
+  const renderIcon = () => {
+    if (direction === "next") {
+      return <img src={Arrow} className=" w-[24px] h-[24px] object-contain " />;
+    } else if (direction === "previous") {
+      return (
+        <img
+          src={Arrow}
+          className=" w-[24px] h-[24px] object-contain transform rotate-180"
+        />
+      );
+    }
+    return icon ? (
+      <img src={icon} className="w-[15px] h-[12px]" alt="Icon" />
+    ) : null;
+  };
+
   return (
     <div>
       <button
         type="submit"
-        className={`${buttonClasses} ${textColorClass} flex flex-row gap-[9.75px] px-[26px]  py-[20px] justify-center items-center`}
+        className={`${buttonClasses} ${textColorClass} flex flex-row gap-[9.75px] px-[26px] py-[20px] justify-center items-center`}
         onClick={handleClick}
         disabled={isDisabled}
       >
+        {direction === "previous" && renderIcon()}
         {to ? (
           <Link to={to} className={textColorClass}>
             {label}
@@ -50,9 +75,7 @@ export const Button = ({ label, to, Click, variant, icon }: ButtonProps) => {
         ) : (
           <span className={textColorClass}>{label} </span>
         )}
-        {icon && (
-          <img src={icon} className="w-[15px] h-[12px] " alt="Plus Icon" />
-        )}
+        {direction === "next" && renderIcon()}
       </button>
     </div>
   );

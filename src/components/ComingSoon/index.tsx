@@ -33,7 +33,7 @@ const ComingSoon = () => {
           <div className="w-[45%] justify-end flex flex-row h-[757px]">
             <img
               src={PhoneLogo}
-              className="w-[100%] scale-[1.2] object-contain"
+              className="w-[100%] scale-[1.4] object-contain"
               loading="lazy"
             />
           </div>
