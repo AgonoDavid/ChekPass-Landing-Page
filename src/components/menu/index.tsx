@@ -55,7 +55,7 @@ const Menu: React.FC<MenuProps> = ({ handleScrollTo }) => {
 
   return (
       <div
-          className={`fixed top-10 lg:right-0 bg-grey-bg w-11/12 lg:left-0 lg:transform-0 lg:-translate-x-0 left-1/2 transform -translate-x-1/2 md:w-[calc(100%-144px)] md:h-[104px] border border-white flex flex-col md:flex-row items-center justify-between transition-colors z-50 duration-500 rounded-lg max-w-[1520px] mx-auto ${
+          className={`fixed top-10 lg:right-0 bg-grey-bg w-11/12 lg:left-0 lg:transform-0 lg:-translate-x-0 left-1/2 transform -translate-x-1/2 md:w-[calc(100%-144px)] md:h-[104px] border border-white flex flex-col md:flex-row items-center justify-between transition-colors z-50 duration-500 rounded-lg max-w-[1600px] mx-auto ${
               isScrolled
                   ? "bg-white lg:bg-opacity-50 lg:backdrop-filter lg:backdrop-blur"
                   : "bg-white"

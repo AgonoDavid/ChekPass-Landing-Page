@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <div
-      className=" bg-gradient-to-b from-header-color to-white lg:h-[1380px] w-full max-w-[1520px] mx-auto"
+      className=" bg-gradient-to-b from-header-color to-white lg:h-[1380px] w-full max-w-[1600px] mx-auto"
       ref={homeRef}
     >
       <div className=" pt-[120px]">
