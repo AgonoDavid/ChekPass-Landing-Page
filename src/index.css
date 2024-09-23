@@ -8,7 +8,15 @@
 ::-webkit-scrollbar {
   @apply w-0 h-0 mid:w-[7px] mid:h-[7px];
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+}
+:root{
+  overflow-x: hidden;
+}
 /* SCROLLBAR-TRACK */
 ::-webkit-scrollbar-track {
   @apply bg-[#ccc] rounded-xl;
@@ -31,17 +39,6 @@
 
 .pane-vertical-line {
   @apply w-[2px] bg-c-text-dark left-[-2px] absolute h-full top-0 bottom-0;
-}
-
-/* HAMBURGER STYLE */
-.hamburger {
-  display: block;
-  position: absolute;
-  height: 0.125rem;
-  border-radius: 50px;
-  opacity: 1;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
 }
 
 .rotate-45 {
